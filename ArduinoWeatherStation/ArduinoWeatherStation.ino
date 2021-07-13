@@ -113,6 +113,7 @@ void loop() {
     }
     client.stop();
   }
+  delay(25000); // sleep 25 seconds
   Serial.println("===> Reading DHT: ");
   read_dht();
   send_data_to_client();
